@@ -11,7 +11,7 @@ def main ():
     return x
 #main ()
 
-print(2 ** 32) # prints 4294967296
+#print(2 ** 32) # prints 4294967296
 
 
 
@@ -65,4 +65,35 @@ def stringtest ():
         else:
              print(0)
     return value
-stringtest()
+#stringtest()
+
+
+def celsiusToFahrenheit ():
+     F = float(input("Enter your temp in degree Fahrenheit: "))
+     C = 5/9 * (F - 32)
+     print("Your temp in degree Celsius is: ", f"{C:.2f}")
+     return F, C
+#celsiusToFahrenheit()
+
+# a function to calculate the midpoint of a line
+def midpoint ():
+     x1 = float(input("Enter the value of x1: "))
+     x2 = float(input("Enter the value of x2: "))
+     y1 = float(input("Enter the value of y1: "))
+     y2 = float(input("Enter the value of y2: "))
+     m1 = (x1 + x2) / 2
+     m2 = (y1 + y2) / 2
+     print(f"({m1}, {m2}) ")
+#midpoint()
+
+def counting ():
+     x = 0
+     while x < 10000: 
+          x += 1
+          print(x)
+     return x
+counting()
+
+
+
+
