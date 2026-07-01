@@ -19,6 +19,8 @@ int divide () {
 	return a, b, c;
 }
 
+
+
 // demonstrating that floating point numbers in c++ are imprecisely represented
 
 int perils () {
@@ -141,7 +143,8 @@ int bitincOr () {
 	cout << (e3 | e4) << "\n";
 	cout << (e3 ^ e4 ) << "\n";
 	cout << (5 << 2 ) << "\n"; // the bitwise lefty shift operation: shifts the first digit the second digit places to the left
-	cout << (5 >> 2 ) << "\n";
+	cout << (5 >> 2 ) << "\n"; // shifting to the right
+	cout << ('m' & 'd') << "\n";
 	cout << (~ e3) << "\n"; // the bitwise negation reverses all the bits of the digit
 	return e3, e4;
 }
