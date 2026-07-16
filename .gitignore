@@ -1,2 +1,4 @@
-algorithm
-handbook
+# Compiled binaries: root-level files with no extension (e.g. `g++ foo.cpp -o foo`)
+/*
+!/*.*
+!/*/
