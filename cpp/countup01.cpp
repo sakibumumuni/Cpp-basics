@@ -29,7 +29,6 @@ int main ()
         else 
         {
             cout << "Bad input!!" << "\n";
-            return false;
         }
     }
     return 0;
