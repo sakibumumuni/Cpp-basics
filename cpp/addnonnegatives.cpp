@@ -21,11 +21,11 @@ int main ()
         if (input >= 0)
         {
             sum += input;
-            cout << sum << "\n";
+            cout << "Your sum is = " << sum << "\n";
         }
         else if (input < 0)
         {
-            cout << 0 << "\n";
+            cout << "You entered a negative value so Take!!" << ":" << 0 << "\n";
         }
     }
     return 0;
